@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'conexao.php'; // Inclua a conexão com o banco de dados
+require 'conexao.php'; // Inclua a conexão com o banco de dadosj
 
 // Verifique a conexão com o banco
 if (!$conn) {
