@@ -1,0 +1,199 @@
+/* Fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Estilo geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #7d4a28, #d4a373);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Container do formulário */
+.form-container {
+    background: #f5e8dc;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    animation: fadeIn 1s ease;
+    margin: 30px;
+}
+
+/* Cabeçalho do formulário */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4f1c13;
+    font-size: 2rem;
+}
+
+/* Estilo dos labels */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 500;
+    color: #6b3d2e;
+}
+
+/* Estilo dos inputs e selects */
+form input, form select {
+    width: 97%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #d8c3a5;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* Foco nos inputs */
+form input:focus, form select:focus {
+    border-color: #b8452b;
+}
+
+/* Botão de envio */
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #b8452b;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Hover no botão */
+form button:hover {
+    background: #d1a947;
+}
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Container da mensagem de confirmação */
+.confirmation-container {
+    background: #f5e8dc;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    animation: fadeIn 1s ease;
+}
+
+/* Título */
+.confirmation-container h1 {
+    font-size: 2rem;
+    color: #b8452b;
+    margin-bottom: 20px;
+}
+
+/* Texto geral */
+.confirmation-container p {
+    font-size: 1.2rem;
+    color: #4f1c13;
+    margin: 10px 0;
+}
+
+/* Destaque no texto */
+.confirmation-container .highlight {
+    font-weight: bold;
+    color: #d1a947;
+}
+
+/* Nota de pagamento */
+.confirmation-container .payment-note {
+    font-size: 1rem;
+    color: #6b3d2e;
+    margin-top: 20px;
+    background: #d8c3a5;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Botão de voltar */
+.confirmation-container .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #b8452b;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+/* Hover no botão */
+.confirmation-container .back-button:hover {
+    background: #d1a947;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .confirmation-container {
+        width: 90%;
+    }
+
+    .confirmation-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .confirmation-container p {
+        font-size: 1rem;
+    }
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    gap: 8px; /* Espaço entre o checkbox e o texto */
+    max-width: 600px; /* Limita a largura para evitar que o texto se espalhe */
+    flex-wrap: wrap; /* Garante que o texto se ajuste corretamente */
+}
+
+.checkbox-container input {
+    margin: 0;
+    flex-shrink: 0; /* Impede que o checkbox seja redimensionado */
+}
+
+.checkbox-container span {
+    flex: 1; /* Faz com que o texto ocupe o espaço disponível */
+    text-align: left;
+}
