@@ -86,6 +86,12 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Escola de Cura Interiro - Igreja Batista do Bosque">
+<meta property="og:description" content="A Escola de Cura Interior é um ministério da Igreja Batista do Bosque que tem como objetivo ajudar as pessoas a encontrarem a cura interior e a liberdade em Cristo.">
+<meta property="og:image" content="https://igrejabatistadobosque.online/sistemas/css/eci.png">
+<meta property="og:url" content="https://igrejabatistadobosque.online/sistemas/escoladecura">
+<meta property="og:type" content="website">
+
     <title>Inscrição</title>
     <link rel="stylesheet" href="js/css/style.css">
     <style>
