@@ -118,9 +118,8 @@ if (isset($_SESSION['inscricao_concluida'])) {
             O pagamento de <strong>R$ 90,00</strong> no link abaixo
         </p>
         <p class="payment-note">
-            <!-- <a href="https://loja.infinitepay.io/2pistudio/qhm4614-escola-de-cura"><button>EFETUE INSCRIÇÃO AQUI</button></a> -->
-             <a href="https://api. whatsapp.com/send?phone=55"<?php echo .$telefone.?>"&text=Ol%C3%A1<?php echo $nome_completo. ?>0 %20OBRIGADA%20POR%20REALIZAR%20A%20SUA%20INSCRI%C3%87%C3%83O!%20%0APARA%20EFETIVAR%20a%20sua%20inscri%C3%A7%C3%A3o,%20clique%20no%20link%20abaixo%20e%20fa%C3%A7a%20o%20pagamento%0Ahttps://loja.infinitepay.io/2pistudio/qhm4614-escola-de-cura"
-        </p>
+            <a href="https://loja.infinitepay.io/2pistudio/qhm4614-escola-de-cura"><button>EFETUE INSCRIÇÃO AQUI</button></a>
+            </p>
         <a href="index.php" class="back-button">Voltar ao início</a>
     </div>
 </body>
